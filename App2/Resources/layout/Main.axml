@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3b5998">
+  <TextView
+      android:text="Name"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textColor="@android:color/white"
+      android:id="@+id/textView1" />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textColor="@android:color/white"
+      android:id="@+id/UserName" />
+  <TextView
+      android:text="Password"
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textColor="@android:color/white"
+      android:id="@+id/textView2" />
+  <EditText
+      android:inputType="textPassword"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textColor="@android:color/white"
+      android:id="@+id/Password" />
+  <Button
+      android:text="Login"
+      android:layout_width="150dp"
+      android:layout_height="wrap_content"
+      android:textColor="@android:color/white"
+      android:id="@+id/LoginButton"
+      android:padding="4dp"
+      android:paddingBottom="4dp"
+      android:paddingEnd="4dp"
+      android:paddingLeft="4dp"
+      android:paddingRight="4dp"
+      android:background="#8b9dc3"
+      android:layout_marginLeft="60dp" />
+</LinearLayout>
